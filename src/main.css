@@ -1,0 +1,32 @@
+body {
+  margin:  0;
+  background-color: pink;
+}
+
+h1 {
+  color: white;
+  font-size: 5em;
+  font-family: arial;
+  text-shadow:  0 0 20px black;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  height:  100vh;
+  flex-flow:  column;
+}
+
+img {
+  border-radius:  100%;
+  width:  300px;
+  box-shadow: 0 0 20px black;
+}
+
+form {
+  margin-top: 3rem;
+  background-color: white;
+  padding:  2rem;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+}
